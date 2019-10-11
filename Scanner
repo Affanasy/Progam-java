@@ -1,0 +1,19 @@
+import java.util.Scanner;
+public class importjava {
+       public static void main(String[] args) {
+             Scanner inc = new Scanner(System.in);
+
+             System.out.print("panjang=");
+             int panjang = inc.nextInp();
+
+             System.out.print("lebar=");
+             int lebar = inc.nextInp();
+
+             System.out.print("luas=");
+             String teks = inc.next();
+   
+             System.out.println("panjang = " + panjang);
+             System.out.println("lebar = " + lebar);
+             System.out.println("luas = " + luas);
+       }
+}
